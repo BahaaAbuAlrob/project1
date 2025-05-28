@@ -1,0 +1,29 @@
+Validation Checksums Report
+===========================
+
+Matrix Size: 500 x 500
+
+1. Sequential Implementation
+----------------------------
+Execution Time: (5456 ms)
+Checksum: (Checksum: 3131207738)
+
+2. Parallel Implementation (4 Threads)
+--------------------------------------
+Execution Time: (2837 ms)
+Checksum: (3131207738)
+
+Speedup= Parallel Time/Sequential Time = 5456/2837 = 1.922 speedup
+
+Notes:
+- Both implementations generate random matrices with values between 0 and 10.
+- To ensure matching checksums, you must use the same input matrices for both runs.
+- In current code, random generation is not synchronized, so checksums will likely differ unless matrices are saved and reused.
+
+Recommendation:
+To compare checksums accurately, modify both codes to read from or generate the same matrices.
+
+Project Author:
+Name: Bahaa Aldeen Abualrob
+ID: 202112389
+Section: 1
