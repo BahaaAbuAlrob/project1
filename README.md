@@ -78,6 +78,7 @@ To test the programs:
 
 ##  Performance Results
 
+![Speedup Graph](results/speedup_graph.png)
 
 ###  Hardware Used
 
